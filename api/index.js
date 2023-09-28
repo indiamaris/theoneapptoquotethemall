@@ -7,15 +7,16 @@ app.use(express.json());
 
 // pegando os dados
 const fs = require('fs');
-const data = fs.readFileSync('../fake-data/source_quote.json', 'utf8');
-const books = JSON.parse(data);
-const library = books.quotes;
-const QuoteMap = require('./utils/quoteMap');
-const { FormatQuote } = require('./utils/formatQuote');
+const { FormatJason } = require('./utils/formatJason');
+const { QuoteMap, QuoteMapCharacter } = require('./utils/quoteMap');
 
-app.get('/', (req, res) => {
-	res.send('Bem vindos a uma API para todos governar!');
-});
+const data_source = fs.readFileSync('../fake-data/source-quote.json', 'utf8');
+const data_character = fs.readFileSync(
+	'../fake-data/character-quote.json',
+	'utf8'
+);
+const source_quote = FormatJason(data_source);
+const character_quote = FormatJason(data_character);
 
 //portinhas
 
@@ -29,20 +30,45 @@ I don't know where you're going
 But I think is in the port ${PORT}`)
 );
 
-// get all quotes
-app.get('/api/quotes', (req, res) => {
-	res.send(library);
+app.get('/', (req, res) => {
+	res.send('Bem vindos a uma API para todos governar!');
 });
 
-// get  quotes by id
-app.get('/api/quotes/:id', (req, res) => {
-	const quote = library[parseInt(req.params.id)];
-	const quoteformated = FormatQuote(quote.source, quote.quote);
-	if (!quote) res.status(404).send('You have no books here!');
+// get all quotes x books
+app.get('/api/quotesbybooks', (req, res) => {
+	console.log(source_quote.length);
+	console.log(character_quote.length);
+	res.send(source_quote);
+});
+
+// get  quotes x books by id
+app.get('/api/quotesbybooks/:id', (req, res) => {
+	const quote = source_quote[parseInt(req.params.id)];
+	if (!quote) return res.status(404).send('You have no books here!');
+
+	const quoteformated = QuoteMap(quote.source, quote.quote);
 	res.send(quoteformated);
 });
 
+// get all quotes x  character
+app.get('/api/quotesbycharacter', (req, res) => {
+	res.send(character_quote);
+});
 
-
-
+// get all quotes x character -by id
+app.get('/api/quotesbycharacter/:id', (req, res) => {
+	const quote = character_quote[parseInt(req.params.id)];
+	if (!quote)
+		return res
+			.status(404)
+			.send(
+				'You have no quotes here! I am joking, I have just 42 quotes, mellon!'
+			);
+	const quoteformated = QuoteMapCharacter(
+		quote.character,
+		quote.english,
+		quote.portuguese
+	);
+	res.send(quoteformated);
+});
 

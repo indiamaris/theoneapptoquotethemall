@@ -1,0 +1,214 @@
+{
+	"quotes": [
+		{
+			"character": "Frodo Baggins",
+			"english": "I wish the Ring had never come to me.",
+			"portuguese": "Eu queria que o Anel nunca tivesse chegado até mim."
+		},
+		{
+			"character": "Aragorn",
+			"english": "A day may come when the courage of men fails, but it is not this day.",
+			"portuguese": "Pode chegar um dia em que a coragem dos homens falhe, mas não é este dia."
+		},
+		{
+			"character": "Gandalf",
+			"english": "All we have to decide is what to do with the time that is given to us.",
+			"portuguese": "Tudo o que temos que decidir é o que fazer com o tempo que nos é dado."
+		},
+		{
+			"character": "Galadriel",
+			"english": "Even the smallest person can change the course of the future.",
+			"portuguese": "Até a pessoa mais pequena pode mudar o rumo do futuro."
+		},
+		{
+			"character": "Samwise Gamgee",
+			"english": "There's some good in this world, Mr. Frodo, and it's worth fighting for.",
+			"portuguese": "Há bondade neste mundo, Sr. Frodo, e vale a pena lutar por ela."
+		},
+		{
+			"character": "Legolas",
+			"english": "A red sun rises. Blood has been spilled this night.",
+			"portuguese": "Um sol vermelho se ergue. Sangue foi derramado nesta noite."
+		},
+		{
+			"character": "Boromir",
+			"english": "One does not simply walk into Mordor.",
+			"portuguese": "Não se entra simplesmente em Mordor."
+		},
+		{
+			"character": "Gollum",
+			"english": "My precious...",
+			"portuguese": "Meu precioso..."
+		},
+		{
+			"character": "Sauron",
+			"english": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+			"portuguese": "Um Anel para todos governar, Um Anel para todos achar, Um Anel para todos trazer e na escuridão os ligar."
+		},
+		{
+			"character": "Gimli",
+			"english": "Certainty of death, small chance of success... What are we waiting for?",
+			"portuguese": "Certeza da morte, pequena chance de sucesso... O que estamos esperando?"
+		},
+		{
+			"character": "Éowyn",
+			"english": "I am no man!",
+			"portuguese": "Eu não sou homem!"
+		},
+		{
+			"character": "Treebeard",
+			"english": "Don't be hasty.",
+			"portuguese": "Não seja precipitado."
+		},
+		{
+			"character": "Denethor",
+			"english": "The city has fallen!",
+			"portuguese": "A cidade caiu!"
+		},
+		{
+			"character": "Faramir",
+			"english": "I would not have it be said that we did nothing.",
+			"portuguese": "Não gostaria que fosse dito que não fizemos nada."
+		},
+		{
+			"character": "Elrond",
+			"english": "You shall not pass!",
+			"portuguese": "Você não passará!"
+		},
+		{
+			"character": "Bilbo Baggins",
+			"english": "I'm going on an adventure!",
+			"portuguese": "Estou indo em uma aventura!"
+		},
+		{
+			"character": "Smeagol",
+			"english": "We hates it, we does!",
+			"portuguese": "Nós odiamos isso, sim, nós odiamos!"
+		},
+		{
+			"character": "Theoden",
+			"english": "Arise, arise, Riders of Théoden!",
+			"portuguese": "Levantem-se, levantem-se, Cavaleiros de Théoden!"
+		},
+		{
+			"character": "Gandalf",
+			"english": "You shall not pass!",
+			"portuguese": "Você não passará!"
+		},
+		{
+			"character": "Frodo Baggins",
+			"english": "The Ring is mine!",
+			"portuguese": "O Anel é meu!"
+		},
+		{
+			"character": "Aragorn",
+			"english": "For Frodo!",
+			"portuguese": "Por Frodo!"
+		},
+		{
+			"character": "Galadriel",
+			"english": "And some things that should not have been forgotten were lost.",
+			"portuguese": "E algumas coisas que não deveriam ter sido esquecidas foram perdidas."
+		},
+		{
+			"character": "Boromir",
+			"english": "I would have followed you, my brother... my captain... my king.",
+			"portuguese": "Eu teria te seguido, meu irmão... meu capitão... meu rei."
+		},
+		{
+			"character": "Samwise Gamgee",
+			"english": "There's some good in this world, Mr. Frodo, and it's worth fighting for.",
+			"portuguese": "Há bondade neste mundo, Sr. Frodo, e vale a pena lutar por ela."
+		},
+		{
+			"character": "Legolas",
+			"english": "A red sun rises. Blood has been spilled this night.",
+			"portuguese": "Um sol vermelho se ergue. Sangue foi derramado nesta noite."
+		},
+		{
+			"character": "Boromir",
+			"english": "One does not simply walk into Mordor.",
+			"portuguese": "Não se entra simplesmente em Mordor."
+		},
+		{
+			"character": "Gollum",
+			"english": "My precious...",
+			"portuguese": "Meu precioso..."
+		},
+		{
+			"character": "Sauron",
+			"english": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+			"portuguese": "Um Anel para todos governar, Um Anel para todos achar, Um Anel para todos trazer e na escuridão os ligar."
+		},
+		{
+			"character": "Gimli",
+			"english": "Certainty of death, small chance of success... What are we waiting for?",
+			"portuguese": "Certeza da morte, pequena chance de sucesso... O que estamos esperando?"
+		},
+		{
+			"character": "Éowyn",
+			"english": "I am no man!",
+			"portuguese": "Eu não sou homem!"
+		},
+		{
+			"character": "Treebeard",
+			"english": "Don't be hasty.",
+			"portuguese": "Não seja precipitado."
+		},
+		{
+			"character": "Denethor",
+			"english": "The city has fallen!",
+			"portuguese": "A cidade caiu!"
+		},
+		{
+			"character": "Faramir",
+			"english": "I would not have it be said that we did nothing.",
+			"portuguese": "Não gostaria que fosse dito que não fizemos nada."
+		},
+		{
+			"character": "Elrond",
+			"english": "You shall not pass!",
+			"portuguese": "Você não passará!"
+		},
+		{
+			"character": "Bilbo Baggins",
+			"english": "I'm going on an adventure!",
+			"portuguese": "Estou indo em uma aventura!"
+		},
+		{
+			"character": "Smeagol",
+			"english": "We hates it, we does!",
+			"portuguese": "Nós odiamos isso, sim, nós odiamos!"
+		},
+		{
+			"character": "Theoden",
+			"english": "Arise, arise, Riders of Théoden!",
+			"portuguese": "Levantem-se, levantem-se, Cavaleiros de Théoden!"
+		},
+		{
+			"character": "Gandalf",
+			"english": "You shall not pass!",
+			"portuguese": "Você não passará!"
+		},
+		{
+			"character": "Frodo Baggins",
+			"english": "The Ring is mine!",
+			"portuguese": "O Anel é meu!"
+		},
+		{
+			"character": "Aragorn",
+			"english": "For Frodo!",
+			"portuguese": "Por Frodo!"
+		},
+		{
+			"character": "Galadriel",
+			"english": "And some things that should not have been forgotten were lost.",
+			"portuguese": "E algumas coisas que não deveriam ter sido esquecidas foram perdidas."
+		},
+		{
+			"character": "Boromir",
+			"english": "I would have followed you, my brother... my captain... my king.",
+			"portuguese": "Eu teria te seguido, meu irmão... meu capitão... meu rei."
+		}
+	]
+}

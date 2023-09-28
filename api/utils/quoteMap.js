@@ -1,9 +1,13 @@
 /** @format */
 
-const QuoteMap = (source, quote) => ({
+module.exports.QuoteMap = (source, quote) => ({
 	source: source,
 	quote: quote,
 });
 
-module.exports.QuoteMap = QuoteMap;
+module.exports.QuoteMapCharacter = (character, english, portuguese) => ({
+	character,
+	english,
+	portuguese,
+});
 
